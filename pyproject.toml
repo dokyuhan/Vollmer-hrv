@@ -14,4 +14,4 @@ dependencies = ["numpy", "pandas"]
 packages = ["vollmer-hrv"]
 
 [tool.setuptools.package-dir]
-heartbrain_zarr = "src"
+vollmer-hrv = "src"
