@@ -11,7 +11,7 @@ requires-python = ">=3.9"
 dependencies = ["numpy", "pandas"]
 
 [tool.setuptools]
-packages = ["vollmer-hrv"]
+packages = ["vollmer_hrv"]
 
 [tool.setuptools.package-dir]
-vollmer-hrv = "src"
+vollmer_hrv = "src"
