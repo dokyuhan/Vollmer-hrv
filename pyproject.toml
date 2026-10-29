@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vollmer-hrv"
+version = "1.0.0"
+description = "Python port of the QRS detector, RRfilter and time-domain HRV measures (SDNN, RMSSD, pNNx) of Marcus Vollmer's HRVTool v1.07"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
